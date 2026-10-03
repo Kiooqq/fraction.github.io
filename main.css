@@ -8,11 +8,11 @@
 
 .header-container {
     background-color: #366083;
-    height: 60px;
+    height: 100px;
 }
 
 .header-text {
-    padding: 10px;
+    padding: 25px;
     padding-left: 50px;
     font-variant-caps: all-petite-caps;
     color:#fff;
@@ -48,7 +48,7 @@ body {
 
 .main-images_header, .main-text_header {
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     text-align: center;
 }
 
