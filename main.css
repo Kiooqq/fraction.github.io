@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+    text-decoration: 0;
+}
+
+.header-container {
+    background-color: #366083;
+    height: 60px;
+}
+
+.header-text {
+    padding: 10px;
+    padding-left: 50px;
+    font-variant-caps: all-petite-caps;
+    color:#fff;
+}
+
+main {
+    margin: 0, auto;
+}
+
+header {
+    width: 100%;
+    margin: 0, 0;
+}
+
+section {
+    max-width: 1000px;
+    margin: 0, auto;
+    box-sizing: border-box;
+    align-items: center
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text_text {
+    padding-top: 15px;
+}
+
+.main-images_header, .main-text_header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.main-images {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.img {
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.btn-tg {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #1994ff; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 0.7rem 1rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+   }
+
+.btn-ds {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #7eb6e7; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 0.7rem 1rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+   }
+
+.btn-gf {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #366083; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 0.7rem 1rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+   }
+
+.main-contacts {
+    position: relative;    /* нужно для подложки */
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 50px 250px;
+}
+
+.main-contacts > p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main-contacts::before {
+    content: "";
+    position: absolute;
+
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    height: calc(100% + 40px);
+    background: #8cacc7;
+    border-radius: 25px;
+    z-index: -1
+}
