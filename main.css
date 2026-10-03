@@ -67,16 +67,16 @@ body {
 
 .btn-tg {
     display: inline-block; /* Строчно-блочный элемент */
-    background: #1994ff; /* Серый цвет фона */
+    background: #2682d2; /* Серый цвет фона */
     color: #fff; /* Белый цвет текста */
     padding: 0.7rem 1rem; /* Поля вокруг текста */
     text-decoration: none; /* Убираем подчёркивание */
     border-radius: 3px; /* Скругляем уголки */
    }
 
-.btn-ds {
+.btn-vk {
     display: inline-block; /* Строчно-блочный элемент */
-    background: #7eb6e7; /* Серый цвет фона */
+    background: #5c84a8; /* Серый цвет фона */
     color: #fff; /* Белый цвет текста */
     padding: 0.7rem 1rem; /* Поля вокруг текста */
     text-decoration: none; /* Убираем подчёркивание */
@@ -92,12 +92,37 @@ body {
     border-radius: 3px; /* Скругляем уголки */
    }
 
+.btn-download {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #198669; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 0.7rem 1rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+   }
+
+.btn-download:hover {
+    background: #21c199;
+}
+
+.btn-tg:hover {
+    background: #48aaff;
+}
+
+.btn-vk:hover {
+    background: #7db3e3;
+}
+
+.btn-gf:hover {
+    background: #5393c7;
+}
+
 .main-contacts {
     position: relative;    /* нужно для подложки */
     display: block;
     text-align: center;
     justify-content: center;
-    margin: 50px 250px;
+    margin: 50px 200px;
 }
 
 .main-contacts > p {
